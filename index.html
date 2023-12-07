@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Diego Lopez">
+    <meta name="keywords" content="tutorial, desarrollo web, Diego lopez">
+    <meta http-equiv="refresh" content="5">
+    <title>Primera Página Web</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="shortcut icon" href="favicon/favicon.ico">
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(189, 189, 255), rgb(255, 233, 236));
+            padding: 0;
+            margin: 0;
+        }
+
+        header {
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #111;
+        }
+
+        .active {
+            background-color: #92a4ff;
+        }
+
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+
+        h2 {
+            font-size: 24px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 100%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 20px;
+        }
+
+        .image {
+            float: right;
+            margin: 0 0 20px 20px;
+            max-width: 25%;
+            height: auto;
+        }
+
+        .image2 {
+            float: left;
+            margin: 0 20px 20px 0;
+            max-width: 25%;
+            height: auto;
+        }
+        .article {
+            float: left;
+            width: 70%;
+            background-color: #FFF;
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #CCC;
+        }
+
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Cosas de la NASA</h1>
+        <nav>
+            <ul>
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="Fotografias.html">fotografias</a></li>
+                <li><a href="Estadisticas.html">Estadisticas</a></li>
+                <li><a href="contacto.html">contacto</a></li>
+            </ul> 
+        </nav>
+    </header>
+    <h2 style="margin: 15px;">Historia y hallazgos de la NASA</h2>
+    <hr>
+
+    <article class="container">
+        <h3>Historia resumida de la NASA</h3>
+        <img class="image" src="assets/images/Nasa1.jpg" alt="Historia de la NASA" width="300">
+
+        <p>La Administración Nacional de Aeronáutica y del Espacio <b>(NASA, por sus siglas en inglés)</b> fue establecida el 29 de julio de 1958 como respuesta a la carrera espacial entre Estados Unidos y la Unión Soviética durante la Guerra Fría. La <b>NASA</b> se fundó con el objetivo de explorar el espacio y desarrollar tecnologías aeroespaciales avanzadas.
+
+        Uno de los hitos iniciales más destacados fue el <i>programa Mercury</i>, que puso al primer estadounidense, <i>Alan Shepard</i>, en el espacio en 1961. Le siguieron los programas <i>Gemini y Apollo</i>, culminando con la histórica misión del <b>Apolo 11 en 1969</b>, cuando los astronautas <b>Neil Armstrong</b> y <b>Buzz Aldrin</b> se convirtieron en los primeros humanos en caminar sobre la Luna.</p>
+
+        <img class="image2" src="assets/images/nasa2.jpg" alt="Historia de la nasa 2" width="300">
+
+        <p>Después de las misiones Apollo, la <b>NASA</b> continuó explorando el espacio con programas como Skylab y las misiones del transbordador espacial. El transbordador espacial permitió la construcción y mantenimiento de la <b>Estación Espacial Internacional (EEI)</b>, un proyecto internacional en colaboración con varias naciones.
+
+        A lo largo de los años, la <b>NASA</b> ha lanzado una variedad de misiones robóticas para explorar otros planetas, lunas y cuerpos celestes en el sistema solar. Además, ha desarrollado tecnologías innovadoras, como los telescopios espaciales Hubble y Kepler, que han revolucionado nuestra comprensión del universo.</p>
+
+        <img class="image" src="assets/images/Nasa3.jpg" alt="Historia de la nasa 3" width="300">
+        <p>En las últimas décadas, la <b>NASA</b> ha centrado su atención en la exploración tripulada y no tripulada del espacio profundo, con el objetivo de enviar astronautas a Marte en el futuro. También ha colaborado con agencias espaciales de todo el mundo en proyectos conjuntos y ha fomentado la participación del sector privado en la exploración espacial.
+
+        En resumen, la <b>NASA</b> ha desempeñado un papel crucial en la exploración espacial, desde los primeros vuelos espaciales hasta la continua búsqueda de conocimiento sobre el universo y el desarrollo de tecnologías pioneras.</p>
+    </article>
+
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
